@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Clothing store</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"
+                >Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar-->
+
+    <!-- Cards container-->
+    <div class="cardContainer">
+      <h3>Products</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- card 1 -->
+        <div class="card mb-3">
+          <h3 class="card-header">Trouser</h3>
+          <img class="img-fluid" src="images/jens.jpg" />
+
+          <div class="card-body">
+            <p class="card-text">Blue jeans, high quality.</p>
+
+            <span class="badge bg-primary">130 SR</span>
+            <button type="button" class="btn btn-dark" id="button">Buy</button>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card mb-3">
+          <h3 class="card-header">Trouser</h3>
+          <img class="img-fluid" src="images/adiddas.webp" />
+
+          <div class="card-body">
+            <p class="card-text">Adidas red cotton pants.</p>
+
+            <span class="badge bg-primary">110 SR</span>
+            <button type="button" class="btn btn-dark" id="button">Buy</button>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="card mb-3">
+          <h3 class="card-header">Trouser</h3>
+          <img class="img-fluid" src="images/nike-pants.jpeg" />
+
+          <div class="card-body">
+            <p class="card-text">Nike cotton black pants.</p>
+
+            <span class="badge bg-primary">90 SR</span>
+            <button type="button" class="btn btn-dark" id="button">Buy</button>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="card mb-3">
+          <h3 class="card-header">T-shirt</h3>
+          <img class="img-fluid" src="images/teashert-adiddas.jpg" />
+
+          <div class="card-body">
+            <p class="card-text">Adidas cotton blue T-shirt, high quality.</p>
+
+            <span class="badge bg-primary">150 SR</span>
+            <button type="button" class="btn btn-dark" id="button">Buy</button>
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div class="card mb-3">
+          <h3 class="card-header">T-shirt</h3>
+          <img class="img-fluid" src="images/teashert-puma.webp" />
+
+          <div class="card-body">
+            <p class="card-text">Buma cotton white T-shirt, high quality.</p>
+
+            <span class="badge bg-primary">75 SR</span>
+
+            <button type="button" class="btn btn-dark" id="button">Buy</button>
+          </div>
+        </div>
+        <!-- card 6 -->
+        <div class="card mb-3">
+          <h3 class="card-header">Shirt</h3>
+          <img class="img-fluid" src="images/lacoste.jpg" />
+
+          <div class="card-body">
+            <p class="card-text">Lacoste black shirt, high quality.</p>
+
+            <span class="badge bg-primary">250 SR</span>
+
+            <button type="button" class="btn btn-dark" id="button">Buy</button>
+          </div>
+        </div>
+        <!-- card 7 -->
+        <div class="card mb-3">
+          <h3 class="card-header">Shoes</h3>
+          <img class="img-fluid" src="images/shoos-adiddas.jpeg" />
+
+          <div class="card-body">
+            <p class="card-text">Black Adidas sneakers.</p>
+
+            <span class="badge bg-primary">270 SR</span>
+
+            <button type="button" class="btn btn-dark" id="button">Buy</button>
+          </div>
+        </div>
+        <!-- card 8 -->
+        <div class="card mb-3">
+          <h3 class="card-header">Shoes</h3>
+          <img class="img-fluid" src="images/new-balance.webp" />
+
+          <div class="card-body">
+            <p class="card-text">Stylish shoes from New Balance, gray color.</p>
+
+            <span class="badge bg-primary">300 SR</span>
+
+            <button type="button" class="btn btn-dark" id="button">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End all the cards -->
+
+    <!-- Table -->
+    <div class="tableContainer">
+      <h3>Shipping Companies</h3>
+
+      <table class="table table-hover">
+        <tbody>
+          <tr class="table-primary">
+            <th scope="row">Company</th>
+            <td>Shipment Period</td>
+            <td>Price</td>
+          </tr>
+          <tr class="table-light">
+            <th scope="row">Aramex</th>
+            <td>2-3 days</td>
+            <td>15 SR</td>
+          </tr>
+          <tr class="table-light">
+            <th scope="row">DHL</th>
+            <td>1-3 days</td>
+            <td>18 SR</td>
+          </tr>
+          <tr class="table-light">
+            <th scope="row">Smsa</th>
+            <td>2-5 days</td>
+            <td>10 SR</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- End Table -->
+
+    <!-- footer-->
+    <div class="footerContainer">
+      <dif class="item2">
+        <p>&copy; 2022 Clothing store, Inc</p>
+      </dif>
+      <div class="item">
+        <h5>Telephone</h5>
+        <img src="images/tele.png" />
+      </div>
+      <div class="item">
+        <h5>Email</h5>
+        <img src="images/email.png" />
+      </div>
+      <div class="item">
+        <h5>Twitter</h5>
+        <img src="images/twitter.png" />
+      </div>
+    </div>
+  </body>
+</html>
