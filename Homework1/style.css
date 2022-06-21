@@ -1,0 +1,76 @@
+h1, main {
+  margin: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+   margin: 0;
+}
+
+.center {
+  display: block;
+  margin: auto;
+  margin-top: 1px;
+  padding: 2px;
+  height: 800px;
+  width: 1500px;
+}
+
+.time {
+  display: block;
+  margin: auto;
+  height: 100px;
+  width: 600px;
+}
+
+body {
+  margin: 0;
+  margin: 100px 0px 0px 0px;
+
+}
+
+.p1 {
+  margin: 100px;
+  text-align: center;
+  font-size: 150%;
+}
+
+ul.dashed {
+  margin: 100px;
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -20px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -20px;
+}
+
+ol {
+  margin: 100px;
+  text-align: left;
+}
+h3 {
+  margin: 100px;
+}
+hr {
+  width: 70%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+}
